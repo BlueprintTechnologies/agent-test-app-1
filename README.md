@@ -67,3 +67,13 @@ open htmlcov/index.html
 ```
 
 *(Requires running `coverage html` after tests)*
+
+## ✅ Enforcement Rules
+
+This repository has branch protection rules in place:
+
+- ✅ All changes to `main` must go through a pull request.
+- ✅ PRs must be approved by @gnakan (as defined in `.github/CODEOWNERS`).
+- ✅ CI checks (tests and coverage) must pass before merging.
+
+These rules ensure high quality and intentional changes as we test agent-assisted workflows.
