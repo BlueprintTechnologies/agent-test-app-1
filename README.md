@@ -1,7 +1,5 @@
 # 🧪 Agent Test App
 
-# 🧪 Agent Test App
-
 ![CI](https://github.com/BlueprintTechnologies/agent-test-app-1/actions/workflows/python-ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/BlueprintTechnologies/agent-test-app-1/branch/main/graph/badge.svg)](https://codecov.io/gh/BlueprintTechnologies/agent-test-app-1)
 
@@ -55,4 +53,17 @@ To run tests locally:
 
 ```bash
 pip install -r requirements.txt
-pytest
+pytest --cov=app --cov-branch --cov-report=xml
+```
+
+To view coverage details, the workflow uses [Codecov](https://codecov.io/gh/BlueprintTechnologies/agent-test-app-1):
+- The badge above reflects current code coverage.
+- After each CI run, coverage is uploaded and visible on the Codecov dashboard.
+- Click the badge to explore uncovered lines or trends over time.
+
+You can also explore coverage in your local dev environment:
+```bash
+open htmlcov/index.html
+```
+
+*(Requires running `coverage html` after tests)*
