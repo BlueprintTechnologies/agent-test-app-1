@@ -1,6 +1,9 @@
 # 🧪 Agent Test App
 
+# 🧪 Agent Test App
+
 ![CI](https://github.com/BlueprintTechnologies/agent-test-app-1/actions/workflows/python-ci.yml/badge.svg)
+[![codecov](https://codecov.io/gh/BlueprintTechnologies/agent-test-app-1/branch/main/graph/badge.svg)](https://codecov.io/gh/BlueprintTechnologies/agent-test-app-1)
 
 This is a simple Python application designed to support experimentation with GitHub Actions CI/CD pipelines and Databricks Mosaic AI agents.
 
